@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="title">这顿吃什么?</view>
+  <button bindtap="startRandom">开始随机</button>
+</view>

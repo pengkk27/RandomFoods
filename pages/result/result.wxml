@@ -1,0 +1,6 @@
+<view class="container">
+    <view>{{result}}</view>
+    <button bindtap="newRandom">再次随机</button>
+</view>
+
+

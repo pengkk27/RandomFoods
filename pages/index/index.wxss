@@ -1,0 +1,5 @@
+/**index.wxss**/
+.title {
+  font-size: 70rpx;
+}
+
