@@ -1,13 +1,12 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
         "pages/result/result"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "这顿吃个啥？",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",

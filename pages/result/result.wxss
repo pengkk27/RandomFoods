@@ -1,1 +1,11 @@
 /* pages/result/result.wxss */
+.result {
+  width: 70%;
+  height: 30%;
+  padding-top: 10%;
+  font-size: 110rpx;
+  text-align: center;
+
+  border-radius: 40rpx;
+  box-shadow: 0 0 12rpx 6rpx #999;
+}

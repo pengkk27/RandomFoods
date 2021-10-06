@@ -15,8 +15,8 @@ Page({
 
     newRandom: function() {
         var random = Math.round(Math.random() * (defaultFoods.length - 1));
-        wx.redirectTo({
-          url: '/pages/result/result?random=' + random,
+        this.setData({
+            result : defaultFoods[random]
         })
       },
     /**
