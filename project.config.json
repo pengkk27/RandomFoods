@@ -33,7 +33,7 @@
     "showES6CompileOption": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
+  "libVersion": "2.19.6",
   "appid": "wxb15d8e35b90adf7e",
   "projectname": "RandomFood",
   "debugOptions": {
