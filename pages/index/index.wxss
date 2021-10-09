@@ -3,3 +3,10 @@
   font-size: 70rpx;
 }
 
+.btn {
+  border-radius: 50rpx;
+
+  text-align: center;
+
+  box-shadow: 0 0 12rpx 6rpx #999;
+}
