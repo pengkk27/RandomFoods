@@ -1,14 +1,14 @@
 <view class="container">
 
   <view class="menu-setting">
-    <i-icon type="setup" size="20"/>
+    <i-icon type="setup" size="20" />
     默认菜单
   </view>
 
-  <view class="title">这顿吃什么?</view>
+  <view class="title" animation="{{ animationData }}">{{tipText}}</view>
 
-  <view class="food">
-    牛肉面
+  <view class="food" animation="{{ foodAnimation }}">
+    {{ food }}
   </view>
 
   <i-button bind:click="handleClick" type="primary" shape="circle" class="random-btn">

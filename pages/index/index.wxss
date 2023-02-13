@@ -14,12 +14,12 @@
 }
 
 .food {
-  visibility: hidden;
   position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 70rpx;
+  top: 35%;
+  font-size: 100rpx;
+  opacity: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .random-btn {
