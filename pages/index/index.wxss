@@ -1,12 +1,30 @@
 /**index.wxss**/
+.menu-setting {
+  position: absolute;
+  top: 60rpx;
+  right: 40rpx;
+}
+
 .title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
   font-size: 70rpx;
 }
 
-.btn {
-  border-radius: 50rpx;
+.food {
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 70rpx;
+}
 
-  text-align: center;
-
-  box-shadow: 0 0 12rpx 6rpx #999;
+.random-btn {
+  position: absolute;
+  bottom: 140rpx;
+  left: 50%;
+  transform: translate(-50%);
 }

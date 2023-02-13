@@ -1,6 +1,17 @@
 <view class="container">
-  <view class="title">这顿吃什么?</view>
-  <i-button type="error" bind:click="handleClick">这是一个按钮</i-button>
 
-  <button class="btn" bindtap="startRandom">开始随机</button>
+  <view class="menu-setting">
+    <i-icon type="setup" size="20"/>
+    默认菜单
+  </view>
+
+  <view class="title">这顿吃什么?</view>
+
+  <view class="food">
+    牛肉面
+  </view>
+
+  <i-button bind:click="handleClick" type="primary" shape="circle" class="random-btn">
+    开始随机
+  </i-button>
 </view>
