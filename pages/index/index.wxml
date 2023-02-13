@@ -1,4 +1,6 @@
 <view class="container">
   <view class="title">这顿吃什么?</view>
+  <i-button type="error" bind:click="handleClick">这是一个按钮</i-button>
+
   <button class="btn" bindtap="startRandom">开始随机</button>
 </view>
